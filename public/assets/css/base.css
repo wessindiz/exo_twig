@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(24, 21, 21)  !important;
+}
+
+
+.titre{
+    color: red !important;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    color: rgb(223, 219, 219) !important;
+    font-size: 25px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+label{
+    color:blanchedalmond;
+}
+
+
+.divform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    width: 50% !important;
+}
+textarea{
+    width: 50% !important;
+}

@@ -1,16 +1,26 @@
 body{
-    background-color: rgb(24, 21, 21)  !important;
+    background-image: linear-gradient( rgb(24, 22, 29), rgb(51, 18, 122))!important;
+    min-height: 100vh;
+    
 }
 
-
 .titre{
-    color: red !important;
+    font-size: 20px;
+    color: rgb(255, 255, 255) !important;
     text-decoration: underline;
 }
 
 nav ul li a{
-    color: rgb(223, 219, 219) !important;
+    color: rgb(109, 95, 58) !important;
     font-size: 25px;
+    font-family: monospace;
+}
+nav ul li a:hover{
+    color: goldenrod !important;
+}
+nav ul li a:active{
+    color: goldenrod !important;
+    text-shadow: 0.05em 0.05em 0.05em rgb(255, 255, 255) !important;
 }
 
 h5{
@@ -18,19 +28,33 @@ h5{
 }
 
 label{
-    color:blanchedalmond;
+    color:rgb(209, 189, 158);
 }
 
+.home{
+    max-height: 30em !important;
+}
 
 .divform{
+    min-height: 84vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.about{
+    min-height: 84vh;
+}
+.home{
+    min-height: 84vh;
+}
 input{
     width: 50% !important;
 }
 textarea{
     width: 50% !important;
+}
+
+.active:hover{
+    background-color: rgb(184, 179, 179) !important;
+    color: rgb(66, 66, 66);
 }

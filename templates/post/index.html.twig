@@ -11,20 +11,6 @@
 	<h1 class="text-center m-3 titre">PARIS:
 		<i>LA VILLE LUMIÈRE</i>
 	</h1>
-	{# <div class="example-wrapper container d-flex flex-wrap justify-content-center">
-	
-			{% for product in Paris %}
-				<div class="card m-3 home col-5">
-					<img src=" {{ asset("img/" ~ product.image)}}" class="card-img-top h-50" alt="{{ product.image}}">
-					<div class="card-body">
-						<h5 class="card-title">{{product.title}}</h5>
-						<p class="card-text">
-							{{product.description}}</p>
-						<p class="card-text">
-							<small class="text-muted">{{ product.date_post }}</small>
-						</p>
-					</div>
-				</div> #}
 	<table class="table table-striped">
 		<thead>
 			<tr>
@@ -37,7 +23,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			{% for produit in produits %}
+			{% for post in posts %}
 				<tr>
 					<td>{{post.id}}</td>
 					<td>{{post.slug}}</td>
